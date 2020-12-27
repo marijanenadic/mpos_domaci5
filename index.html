@@ -46,7 +46,7 @@
     </div>
     <div class="form-row">
       <div class="col-md-12 add_div">
-        <button ng-disabled="frm.$invalid" class="task_add" style="height: 40px;">Dodaj novi task</button>
+        <button ng-disabled="frm.$pristine || frm.$invalid" class="task_add" style="height: 40px;">Dodaj novi ispit</button>
       </div>
     </div>
   </form>
